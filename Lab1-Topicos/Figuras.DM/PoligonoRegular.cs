@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Figuras.DM
 {
-    public class Class1
+    public class poligonoRegular
     {
+        public int cantidadLados { get; set; }
+        public double tamanoLados { get; set; }
     }
 }
