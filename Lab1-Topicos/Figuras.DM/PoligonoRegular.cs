@@ -10,5 +10,7 @@ namespace Figuras.DM
     {
         public int cantidadLados { get; set; }
         public double tamanoLados { get; set; }
+
+        //////asdkljasdjaskljdlasjd
     }
 }
