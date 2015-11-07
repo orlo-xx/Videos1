@@ -40,11 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acciones\calculoApotemaPoligono.cs" />
+    <Compile Include="Acciones\sumaLadosPoligono.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Acciones\" />
     <Folder Include="Especificaciones\" />
     <Folder Include="Validaciones\" />
   </ItemGroup>

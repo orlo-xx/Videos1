@@ -10,7 +10,8 @@ namespace Figuras.DM
     {
         public int cantidadLados { get; set; }
         public double tamanoLados { get; set; }
-
-        //////asdkljasdjaskljdlasjd
+        public double apotema { get; set; }
+        public double area { get; set; }
+        public double perimetro { get; set; }
     }
 }
