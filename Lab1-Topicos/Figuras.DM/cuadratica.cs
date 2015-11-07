@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Figuras.DM
 {
+    //khgfkikjbkjabf
     class cuadratica
     {
     }
