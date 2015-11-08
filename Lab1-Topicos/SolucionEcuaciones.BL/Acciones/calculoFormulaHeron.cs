@@ -11,7 +11,7 @@ namespace SolucionEcuaciones.BL.Acciones
     {
         public triangulos formulaHeron (triangulos tR)
         {
-            double semiperimetro = (tR.lado3/2);
+            double semiperimetro = (tR.perimetro/2);
             tR.area = Math.Sqrt(semiperimetro * (semiperimetro - tR.lado1) * (semiperimetro - tR.lado2) * (semiperimetro - tR.lado3));
             return tR;
         }

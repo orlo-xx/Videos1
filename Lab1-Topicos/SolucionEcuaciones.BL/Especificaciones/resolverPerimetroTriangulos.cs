@@ -14,7 +14,7 @@ namespace SolucionEcuaciones.BL.Especificaciones
         public double resolverPerimetro(triangulos tR)
         {
             //Validaciones
-            if ((tR.lado1 != 0 && tR.lado2 != 0 && tR.lado3 != 0) && (tR.lado1 <= (tR.lado2 + tR.lado3)) || (tR.lado2 <= (tR.lado1 + tR.lado3)) || (tR.lado3 <= (tR.lado2 + tR.lado1)))
+            if ((tR.lado1 != 0 && tR.lado2 != 0 && tR.lado3 != 0) && ((tR.lado1 <= (tR.lado2 + tR.lado3)) && (tR.lado2 <= (tR.lado1 + tR.lado3)) && (tR.lado3 <= (tR.lado2 + tR.lado1))))
             {
 
                 sumaLadosTriangulo calcPerimetro = new sumaLadosTriangulo();
