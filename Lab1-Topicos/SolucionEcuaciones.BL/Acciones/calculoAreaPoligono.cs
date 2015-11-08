@@ -17,6 +17,7 @@ namespace SolucionEcuaciones.BL.Acciones
             pR.area = ((pR.perimetro)*(pR.apotema)) / 2;
 
             return pR;
+            //
         }
     }
 }

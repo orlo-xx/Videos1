@@ -43,6 +43,7 @@
     <Compile Include="Acciones\calculoApotemaPoligono.cs" />
     <Compile Include="Acciones\calculoAreaCuadrado.cs" />
     <Compile Include="Acciones\calculoAreaParalelogramos.cs" />
+    <Compile Include="Acciones\calculoAreaPoligono.cs" />
     <Compile Include="Acciones\calculoAreaRombo.cs" />
     <Compile Include="Acciones\calculoAreaRomboide.cs" />
     <Compile Include="Acciones\calculoAreaTrapecio.cs" />
@@ -60,9 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validaciones\prueba.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Especificaciones\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Figuras.DM\Figuras.DM.csproj">
       <Project>{4bea8296-c215-400c-967f-768b6c0bbad0}</Project>
