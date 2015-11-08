@@ -13,7 +13,7 @@ namespace SolucionEcuaciones.BL.Especificaciones
         public double resolverArea(poligonoRegular pR)
         {
             //Validaciones
-            if ((pR.cantidadLados > 4 && pR.cantidadLados < 17) || pR.tamanoLados > 0)
+            if ((pR.cantidadLados > 4 && pR.cantidadLados < 17) && pR.tamanoLados > 0)
             {
 
                 calculoApotemaPoligono calcApo = new calculoApotemaPoligono();

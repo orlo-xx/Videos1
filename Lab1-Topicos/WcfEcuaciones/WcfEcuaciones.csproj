@@ -61,14 +61,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ResolverPoligono.svc" />
+    <Content Include="ResolverFiguras.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ResolverPoligono.svc.cs">
-      <DependentUpon>ResolverPoligono.svc</DependentUpon>
+    <Compile Include="ResolverFiguras.svc.cs">
+      <DependentUpon>ResolverFiguras.svc</DependentUpon>
     </Compile>
-    <Compile Include="IResolverPoligono.cs" />
+    <Compile Include="IResolverFiguras.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,7 +13,7 @@ namespace SolucionEcuaciones.BL.Especificaciones
         public double resolverPerimetro(poligonoRegular pR) {
 
             //Validaciones
-            if ((pR.cantidadLados > 4 && pR.cantidadLados < 17) || pR.tamanoLados > 0) {
+            if ((pR.cantidadLados > 4 && pR.cantidadLados < 17) && pR.tamanoLados > 0) {
 
                 sumaLadosPoligono sumaLados = new sumaLadosPoligono();
                 pR = sumaLados.suma(pR);

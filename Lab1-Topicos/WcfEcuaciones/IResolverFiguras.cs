@@ -10,11 +10,14 @@ namespace WcfEcuaciones
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IResolverPoligono
+    public interface IResolverFiguras
     {
 
         [OperationContract]
         double ResolverPoligonoWcf(int calculo, int catlados, double tamanoLados);
+
+        [OperationContract]
+        double ResolverPoligonoWcf22(int calculo, int catlados, double tamanoLados);
     }
 
 
