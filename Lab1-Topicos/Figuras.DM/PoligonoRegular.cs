@@ -13,5 +13,14 @@ namespace Figuras.DM
         public double apotema { get; set; }
         public double area { get; set; }
         public double perimetro { get; set; }
+
+        public poligonoRegular(int cantL, double tamLados) {
+
+            this.cantidadLados = cantL;
+            this.tamanoLados = tamLados;
+
+        }
+
+
     }
 }

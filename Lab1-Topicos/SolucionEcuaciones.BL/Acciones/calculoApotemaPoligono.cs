@@ -11,8 +11,8 @@ namespace SolucionEcuaciones.BL.Acciones
     {
         public poligonoRegular apotema(poligonoRegular pR) {
 
-            pR.apotema = Math.Sqrt(Math.Pow(3, 2) - Math.Pow((pR.tamanoLados / 2), 2));
-            //
+            pR.apotema = Math.Sqrt(Math.Pow(pR.tamanoLados, 2) - Math.Pow((pR.tamanoLados / 2), 2));
+
             return pR;
         }
     }
