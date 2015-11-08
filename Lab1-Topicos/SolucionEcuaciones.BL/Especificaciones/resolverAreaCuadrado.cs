@@ -8,7 +8,7 @@ using SolucionEcuaciones.BL.Acciones;
 
 namespace SolucionEcuaciones.BL.Especificaciones
 {
-    class resolverAreaCuadrado
+    public class resolverAreaCuadrado
     {
 
         public double resolverArea(cuadrilatero cT)

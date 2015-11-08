@@ -8,7 +8,7 @@ using SolucionEcuaciones.BL.Acciones;
 
 namespace SolucionEcuaciones.BL.Especificaciones
 {
-    class resolverPerimetroCuadrado
+    public class resolverPerimetroCuadrado
     {
 
         public double resolverPerimetro(cuadrilatero cT)

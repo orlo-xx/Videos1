@@ -17,6 +17,8 @@ namespace Figuras.DM
         public double PerimetroParalelogramo { get; set; }
         public double AreaParalelogramo { get; set; }
 
+
+
         //Cuadrado
         public double LadoCuadrado1 { get; set; }
         public double LadoCuadrado2 { get; set; }

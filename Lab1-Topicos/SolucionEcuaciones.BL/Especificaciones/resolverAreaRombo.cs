@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SolucionEcuaciones.BL.Especificaciones
 {
-    class resolverAreaRombo
+    public class resolverAreaRombo
     {
 
         public double resolverArea(cuadrilatero cT)
