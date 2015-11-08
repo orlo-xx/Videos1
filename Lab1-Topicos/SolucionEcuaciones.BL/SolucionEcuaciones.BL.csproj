@@ -41,7 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones\calculoApotemaPoligono.cs" />
+    <Compile Include="Acciones\calculoAreaCuadrado.cs" />
+    <Compile Include="Acciones\calculoAreaParalelogramos.cs" />
+    <Compile Include="Acciones\calculoAreaRombo.cs" />
+    <Compile Include="Acciones\calculoAreaRomboide.cs" />
+    <Compile Include="Acciones\calculoAreaTrapecio.cs" />
+    <Compile Include="Acciones\calculoFormulaHeron.cs" />
+    <Compile Include="Acciones\sumaLadosCuadrado.cs" />
+    <Compile Include="Acciones\sumaLadosParalelogramos.cs" />
     <Compile Include="Acciones\sumaLadosPoligono.cs" />
+    <Compile Include="Acciones\sumaLadosRombo.cs" />
+    <Compile Include="Acciones\sumaLadosRomboide.cs" />
+    <Compile Include="Acciones\sumaLadosTrapecio.cs" />
+    <Compile Include="Acciones\sumaLadosTriangulo.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validaciones\prueba.cs" />
