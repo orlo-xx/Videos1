@@ -15,17 +15,17 @@ namespace WcfEcuaciones
     public class ResolverFiguras : IResolverFiguras
     {
 
-        public double ResolverPoligonoWcf(int calculo, int catlados, double tamanoLados) {
+        public double ResolverPoligonoWcf(int queCalcular, int catlados, double tamanoLados) {
 
             poligonoRegular pR = new poligonoRegular(catlados, tamanoLados);
 
-            if (calculo == 1) {
+            if (queCalcular == 1) {
 
                 resolverAreaPoligono areaP = new resolverAreaPoligono();
 
                 return areaP.resolverArea(pR);
 
-            } else if (calculo == 2) {
+            } else if (queCalcular == 2) {
 
                 resolverPerimetroPoligono perimetroP = new resolverPerimetroPoligono();
 
@@ -36,30 +36,121 @@ namespace WcfEcuaciones
             }
         }
 
-        public double ResolverPoligonoWcf22(int calculo, int catlados, double tamanoLados)
+        public double ResolverTrianguloWcf(int queCalcular, double lado1, double lado2, double lado3)
         {
 
-            poligonoRegular pR = new poligonoRegular(catlados, tamanoLados);
+            triangulos tr = new triangulos(lado1, lado2, lado3);
 
-            if (calculo == 1)
+            if (queCalcular == 1)
             {
 
-                resolverAreaPoligono areaP = new resolverAreaPoligono();
+                resolverAreaTriangulos areaT = new resolverAreaTriangulos();
 
-                return areaP.resolverArea(pR);
+                return areaT.resolverArea(tr);
 
             }
-            else if (calculo == 2)
+            else if (queCalcular == 2)
             {
 
-                resolverPerimetroPoligono perimetroP = new resolverPerimetroPoligono();
+                resolverPerimetroTriangulos perimetroT = new resolverPerimetroTriangulos();
 
-                return perimetroP.resolverPerimetro(pR);
+                return perimetroT.resolverPerimetro(tr);
             }
             else
             {
                 return 0;
             }
+        }
+
+        public double ResolverCuadrilateroWcf(int queCalcular, int tipoCuadrilatero, double lado1, double lado2, double altura)
+        {
+
+            if (queCalcular == 1)
+            {
+                cuadrilatero cua = new cuadrilatero();
+                //resolverAreaCuadrilatero areaCua = new resolverAreaCuadrilatero();
+
+                //switch (tipoCuadrilatero)
+                //{
+                //    case 1://Paralelogramo
+                //        cua.AlturaParalelogramo = altura;
+                //        cua.LadoParalelogramo1 = lado1;
+                //        cua.LadoParalelogramo2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 2://Cuadrado
+                //        cua.LadoCuadrado1 = lado1;
+                //        cua.LadoCuadrado2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 3://Rombo
+                //        cua.LadoRombo = altura;
+                //        cua.RomboDiagonalMayor = lado1;
+                //        cua.RomboDiagonalMenor = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 4://Romboide
+                //        cua.AlturaRomboide = altura;
+                //        cua.LadoRomboide1 = lado1;
+                //        cua.LadoRomboide2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 5://Trapecio
+                //        cua.AlturaTrapecio = altura;
+                //        cua.ladoTrapecio1 = lado1;
+                //        cua.ladoTrapecio2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    default:
+                //        return 0;
+                //}              
+
+            }
+            else if (queCalcular == 2)
+            {
+                cuadrilatero cua = new cuadrilatero();
+                //resolverAreaCuadrilatero areaCua = new resolverAreaCuadrilatero();
+
+                //switch (tipoCuadrilatero)
+                //{
+                //    case 1://Paralelogramo
+                //        cua.AlturaParalelogramo = altura;
+                //        cua.LadoParalelogramo1 = lado1;
+                //        cua.LadoParalelogramo2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 2://Cuadrado
+                //        cua.LadoCuadrado1 = lado1;
+                //        cua.LadoCuadrado2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 3://Rombo
+                //        cua.LadoRombo = altura;
+                //        cua.RomboDiagonalMayor = lado1;
+                //        cua.RomboDiagonalMenor = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 4://Romboide
+                //        cua.AlturaRomboide = altura;
+                //        cua.LadoRomboide1 = lado1;
+                //        cua.LadoRomboide2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    case 5://Trapecio
+                //        cua.AlturaTrapecio = altura;
+                //        cua.ladoTrapecio1 = lado1;
+                //        cua.ladoTrapecio2 = lado2;
+                //        return areaCua;
+                //        break;
+                //    default:
+                //        return 0;
+                //}
+            }
+            else
+            {
+                return 0;
+            }
+            return 0;
         }
 
     }

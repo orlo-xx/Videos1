@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace SolucionEcuaciones.BL.Especificaciones
 {
-    class resolverPerimetroTriangulos
+    public class resolverPerimetroTriangulos
     {
-        public double resolverArea(triangulos tR)
+        public double resolverPerimetro(triangulos tR)
         {
             //Validaciones
             if ((tR.lado1 != 0 && tR.lado2 != 0 && tR.lado3 != 0) && (tR.lado1 <= (tR.lado2 + tR.lado3)) || (tR.lado2 <= (tR.lado1 + tR.lado3)) || (tR.lado3 <= (tR.lado2 + tR.lado1)))

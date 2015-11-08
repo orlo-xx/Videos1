@@ -13,5 +13,12 @@ namespace Figuras.DM
         public double lado3 { get; set; }
         public double area { get; set; }
         public double perimetro { get; set; }
+
+        public triangulos(double lado1, double lado2, double lado3) {
+            this.lado1 = lado1;
+            this.lado2 = lado2;
+            this.lado3 = lado3;        
+        }
+
     }
 }

@@ -14,10 +14,14 @@ namespace WcfEcuaciones
     {
 
         [OperationContract]
-        double ResolverPoligonoWcf(int calculo, int catlados, double tamanoLados);
+        double ResolverPoligonoWcf(int queCalcular, int catlados, double tamanoLados);
 
         [OperationContract]
-        double ResolverPoligonoWcf22(int calculo, int catlados, double tamanoLados);
+        double ResolverTrianguloWcf(int queCalcular, double lado1, double lado2, double lado3);
+
+        [OperationContract]
+        double ResolverCuadrilateroWcf(int queCalcular, int tipoCuadrilatero,double lado1, double lado2, double altura);
+
     }
 
 

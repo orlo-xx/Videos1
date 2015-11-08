@@ -17,7 +17,7 @@ namespace SolucionEcuaciones.BL.Especificaciones
             {
 
                 calculoFormulaHeron calcArea = new calculoFormulaHeron();
-                    tR = calcArea.formulaHeron(tR);
+                tR = calcArea.formulaHeron(tR);
             }
             else
             {

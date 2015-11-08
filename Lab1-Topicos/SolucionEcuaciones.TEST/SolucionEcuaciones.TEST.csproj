@@ -55,6 +55,7 @@
     <Compile Include="PruebasUnitariasPoligonoRegular.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PruebasUnitariasTriangulo.cs" />
+    <Compile Include="PruebasUnitariasCuadrilateros.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Figuras.DM\Figuras.DM.csproj">
